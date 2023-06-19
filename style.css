@@ -13,7 +13,7 @@
   width: 100%;
   height: 100vh;
   background-color: greenyellow;
-  /* background: url("img.jpg") no-repeat;*/
+  background: url("img.jpg") no-repeat;
   background-size: cover;
   background-position: center;
   animation: animateBg 10s linear infinite;
