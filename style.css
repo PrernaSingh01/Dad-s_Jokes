@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,600&family=Tilt+Prism&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-color: greenyellow;
+  /* background: url("img.jpg") no-repeat;*/
+  background-size: cover;
+  background-position: center;
+  animation: animateBg 10s linear infinite;
+}
+
+@keyframes animateBg {
+  100% {
+    filter: hue-rotate(360deg);
+  }
+}
+
+.section {
+  width: 600px;
+  height: 650px;
+  background-color: rgb(0, 0, 0);
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  border-radius: 20px;
+}
+
+h2 {
+  margin-top: 10%;
+  font-size: 2em;
+  color: #ffea00;
+  text-align: center;
+}
+
+.joke {
+  margin-top: 20%;
+  font-size: 2em;
+  color: #ffffff;
+  text-align: center;
+}
+
+.btn {
+  text-align: center;
+  justify-content: center;
+
+  padding: 10px;
+  margin-top: 30%;
+  margin-left: 35%;
+  font-size: 2em;
+  color: #000000;
+  border: none;
+  box-shadow: 2px 0px 8px 10px rgb(249, 176, 6);
+  border-radius: 50px;
+  background-color: rgb(255, 238, 0);
+  cursor: pointer;
+}
